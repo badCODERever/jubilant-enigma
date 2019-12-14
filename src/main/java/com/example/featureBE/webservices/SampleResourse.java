@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleResourse {
 
-    @RequestMapping(value = "/displayText")
+    @RequestMapping(value = "/")
     public String displayValue() {
-        return "Welcome SpringBoot";
+        return "<h2>Welcome SpringBoot</h2>";
     }
 
 }
